@@ -1,0 +1,10 @@
+/*'reset default settings from browser'*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /* box-sizing property is used to tell the brower what the sizing properties (width and height) should include border-box*/
+    box-sizing: border-box;
+}
+
+
