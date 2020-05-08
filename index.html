@@ -3,21 +3,25 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Harry Potter Quiz</title>
+    <title>Mean Girl Quiz</title>
     <link rel="stylesheet" href="style.css" style="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
 
-    <form action="" id="form-wrapper">
+    <form>
 
         <section id="homepage">
-            <h1>Are you a true Mean Girls fan?</h1>
-            <button>Take Quiz</button>
+            <div class= "homepage-container">
+                <h1>Are you a true Mean Girls fan?</h1>
+               <button type="button" class="btn btn-outline-dark">Take Quiz</button>
+            </div>
         </section>
 
-        <section style="none" role="main">
+        <section id="quizPage" style="none" role="main">
             <div class="question-container">
 
                 <h2>Who said "That is soo fetch?</h2>
@@ -38,14 +42,14 @@
                     <input type="radio" class="option" value="4">
                     <label for="option">Janis Ian</label><br>
                 </fieldset>
-                <button>Submit</button>
+                <button type="button" class="btn btn-outline-dark">Submit</button>
 
             </div>
 
         </section>
 
-        <section>
-            <div class="gif">
+        <section id="gifPage">
+            <div class="gif-container">
 
                 <iframe src="https://giphy.com/embed/6PZUSWgNmDHq" width="480" height="267" frameBorder="0" class="giphy-embed" allowFullScreen alt="Boo You Whore"></iframe>
 
@@ -53,21 +57,26 @@
 
             </div>
 
-            <button>Next</button>
+            <button type="button" class="btn btn-outline-dark">Next</button>
         </section>
 
 
-        <section>
-            <div class="results">
+        <section id="resultsPage">
+            <div class="results-container">
                 <h3>Your Results</h3>
                 <h3>Final Score</h3>
 
             </div>
-            <button>Re-try</button>
+            <button type="button" class="btn btn-outline-dark">Take it Again</button>
         </section>
 
 
     </form>
 
     <script src="main.js"></script>
-</body></html>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>

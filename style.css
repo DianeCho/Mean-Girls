@@ -7,4 +7,58 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url(images/Mean_Girls_background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
 
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+section {
+    text-align: center;
+
+}
+
+#quizPage,
+#gifPage {
+    border: solid;
+}
+
+
+
+.homepage-container {
+/*    border: solid;*/
+    margin: auto;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 25%;
+    margin-bottom: 25%;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+
+.h1, h1 {
+    font-size: 2.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: linear-gradient(#ef5ac2, #ecdde3);
+     border-radius: 25px;
+    padding: inherit;
+}
+
+.btn-outline-dark {
+margin-top: 50px;
+}
